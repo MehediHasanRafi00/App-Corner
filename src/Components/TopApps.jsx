@@ -2,6 +2,7 @@ import React from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "./AppsCard";
 import { Link } from "react-router";
+import SkeletonLoading from "./SkeletonLoading";
 
 const TopApps = () => {
   const { apps, loading, error } = useApps();
@@ -18,13 +19,20 @@ const TopApps = () => {
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
-      <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {topApps.map((app) => (
-          <AppsCard key={app.id} app={app}></AppsCard>
-        ))}
-      </div>
+
+      {loading ? (
+        <SkeletonLoading count={topApps.length}></SkeletonLoading>
+      ) : (
+        <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {topApps.map((app) => (
+            <AppsCard key={app.id} app={app}></AppsCard>
+          ))}
+        </div>
+      )}
       <div className="flex justify-center">
-        <Link to={'/apps'} className="btn gradient-bg px-8 mt-8 ">Show All</Link>
+        <Link to={"/apps"} className="btn gradient-bg px-8 mt-8 ">
+          Show All
+        </Link>
       </div>
     </div>
   );
