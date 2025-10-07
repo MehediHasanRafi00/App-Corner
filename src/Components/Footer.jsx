@@ -1,15 +1,16 @@
 import React from "react";
 
 import logo from '/logo.png'
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="px-4 divide-y bg-[#001931]">
-      <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+    <footer className="px-4 divide-y bg-[#001931] text-white">
+      <div className="container flex flex-col justify-between gap-6 py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
-          <a
+          <Link
             rel="noopener noreferrer"
-            href="#"
+            to={"/"}
             className="flex justify-center space-x-3 lg:justify-start"
           >
             <div className="flex items-center justify-center w-12 h-12 ">
@@ -18,7 +19,8 @@ const Footer = () => {
             <span className="self-center text-2xl font-semibold">
               App Corner
             </span>
-          </a>
+          </Link>
+          <p className=" text-center md:text-start mt-3 mr-3">AppCorner is your go-to place to discover, download, and install trusted apps. Find the right tools for your needs and enjoy a smooth app experience — all in one corner!</p>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           <div className="space-y-3">
@@ -136,8 +138,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center dark:text-gray-600">
-        © 1968 Company Co. All rights reserved.
+      <div className="py-6 text-sm text-center text-gray-400">
+        © 2025 AppCorner Company Co. All rights reserved.
       </div>
     </footer>
   );
