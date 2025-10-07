@@ -1,0 +1,542 @@
+[
+  {
+    "image": "https://logo.clearbit.com/whatsapp.com",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "id": 1,
+    "description": "WhatsApp offers secure messaging and calling worldwide. It supports text, audio, video calls, document sharing, and group chats with end-to-end encryption.",
+    "size": 45,
+    "reviews": "120M",
+    "ratingAvg": 4.5,
+    "downloads": "7B",
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 81000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/tiktok.com",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 2,
+    "description": "TikTok is a creative video-sharing app where users can make and explore short videos, discover trends, and express themselves through music and filters.",
+    "size": 90,
+    "reviews": "95M",
+    "ratingAvg": 4.6,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 62000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/facebook.com",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "Facebook connects people with friends, communities, and businesses. It lets users share posts, photos, videos, and engage in groups and pages.",
+    "size": 80,
+    "reviews": "110M",
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 64000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/instagram.com",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 4,
+    "description": "Instagram lets users share photos, videos, and reels, connect with creators, and discover trending content across the world.",
+    "size": 70,
+    "reviews": "105M",
+    "ratingAvg": 4.4,
+    "downloads": "4B",
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 22000000 },
+      { "name": "5 star", "count": 65000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/telegram.org",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 5,
+    "description": "Telegram offers fast, secure, and cloud-based messaging with channels, bots, large group support, and encrypted chats.",
+    "size": 60,
+    "reviews": "85M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 60000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/snapchat.com",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 6,
+    "description": "Snapchat allows users to send disappearing messages, photos, and videos, enhanced with creative filters, lenses, and augmented reality effects.",
+    "size": 85,
+    "reviews": "78M",
+    "ratingAvg": 4.2,
+    "downloads": "3B",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 48000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/spotify.com",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 7,
+    "description": "Spotify offers millions of songs, albums, and podcasts for free or premium users. Create playlists, discover artists, and listen offline.",
+    "size": 100,
+    "reviews": "92M",
+    "ratingAvg": 4.8,
+    "downloads": "2.5B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 73000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/netflix.com",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 8,
+    "description": "Netflix streams movies, shows, and exclusive series globally. It allows offline downloads and multi-profile access.",
+    "size": 120,
+    "reviews": "87M",
+    "ratingAvg": 4.6,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 14000000 },
+      { "name": "5 star", "count": 62000000 }
+    ]
+  },
+  {
+    "image": "https://www.google.com/images/branding/product/2x/maps_96in128dp.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Google Maps offers real-time navigation, live traffic, GPS routes, and location sharing to help users explore and travel easily.",
+    "size": 75,
+    "reviews": "95M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 13000000 },
+      { "name": "5 star", "count": 74000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/youtube.com",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "YouTube allows users to watch, upload, and share videos. It includes shorts, subscriptions, and a premium ad-free option.",
+    "size": 110,
+    "reviews": "130M",
+    "ratingAvg": 4.6,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 18000000 },
+      { "name": "5 star", "count": 99000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/x.com",
+    "title": "X (Twitter)",
+    "companyName": "X Corp",
+    "id": 11,
+    "description": "X is a social platform for real-time conversations, news, and trends where users can post, follow, and engage globally.",
+    "size": 95,
+    "reviews": "75M",
+    "ratingAvg": 4.2,
+    "downloads": "2B",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 14000000 },
+      { "name": "5 star", "count": 49000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/pinterest.com",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 12,
+    "description": "Pinterest lets users find and save creative ideas for fashion, food, design, home, and lifestyle inspiration.",
+    "size": 70,
+    "reviews": "50M",
+    "ratingAvg": 4.7,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 35500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/linkedin.com",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 13,
+    "description": "LinkedIn connects professionals for networking, job searching, learning, and sharing industry insights.",
+    "size": 85,
+    "reviews": "40M",
+    "ratingAvg": 4.4,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 30000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/reddit.com",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 14,
+    "description": "Reddit is a community-driven platform with discussions, memes, news, and niche forums covering every interest imaginable.",
+    "size": 60,
+    "reviews": "35M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 27000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/amazon.com",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon",
+    "id": 15,
+    "description": "Amazon Shopping allows users to buy millions of products, track orders, manage payments, and enjoy Prime benefits.",
+    "size": 130,
+    "reviews": "95M",
+    "ratingAvg": 4.8,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 78000000 }
+    ]
+  },
+  {
+    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxtPV1zYJfBPveATOCg5xpTusn.7._fPw5CYPvOiIZfkLoYIT3UjtJ448OhRmygnycMC6EukmwgMdy_xTc_tNl2o-&format=source",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 16,
+    "description": "Zoom provides reliable video conferencing and chat tools for online meetings, webinars, and collaboration.",
+    "size": 85,
+    "reviews": "60M",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 36000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/slack.com",
+    "title": "Slack",
+    "companyName": "Salesforce",
+    "id": 17,
+    "description": "Slack is a communication platform for teams that integrates channels, messages, file sharing, and app tools.",
+    "size": 95,
+    "reviews": "25M",
+    "ratingAvg": 4.6,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/airbnb.com",
+    "title": "Airbnb",
+    "companyName": "Airbnb Inc.",
+    "id": 18,
+    "description": "Airbnb connects travelers with hosts worldwide, offering homes, rooms, and unique stays with flexible booking options.",
+    "size": 120,
+    "reviews": "30M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/ubereats.com",
+    "title": "Uber Eats",
+    "companyName": "Uber Technologies",
+    "id": 19,
+    "description": "Uber Eats delivers food from local restaurants to your doorstep with real-time order tracking and contactless delivery.",
+    "size": 80,
+    "reviews": "65M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 46000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/paypal.com",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings",
+    "id": 20,
+    "description": "PayPal allows users to send and receive money securely, shop online, and make instant transfers worldwide.",
+    "size": 70,
+    "reviews": "58M",
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 47000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/dropbox.com",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 21,
+    "description": "Dropbox offers cloud file storage and sharing solutions, allowing users to back up, sync, and collaborate easily.",
+    "size": 65,
+    "reviews": "22M",
+    "ratingAvg": 4.4,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/duolingo.com",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 22,
+    "description": "Duolingo is a fun language-learning app with interactive lessons, daily challenges, and speech recognition features.",
+    "size": 75,
+    "reviews": "40M",
+    "ratingAvg": 4.9,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 34500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/discord.com",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 23,
+    "description": "Discord is a communication app for gamers and communities offering text, voice, and video chats with rich media integration.",
+    "size": 90,
+    "reviews": "55M",
+    "ratingAvg": 4.8,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 46500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/shazam.com",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "id": 24,
+    "description": "Shazam identifies songs playing nearby instantly and links users to streaming platforms to enjoy full tracks.",
+    "size": 55,
+    "reviews": "25M",
+    "ratingAvg": 4.9,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/canva.com",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 25,
+    "description": "Canva allows users to design graphics, presentations, and social posts using templates and drag-and-drop tools.",
+    "size": 100,
+    "reviews": "70M",
+    "ratingAvg": 4.9,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 64000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png?20210603103011",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corp.",
+    "id": 26,
+    "description": "Teams offers chat, meetings, and collaborative workspace tools integrated with Microsoft 365 for organizations.",
+    "size": 115,
+    "reviews": "50M",
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 42000000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/notion.so",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 27,
+    "description": "Notion is an all-in-one workspace for notes, tasks, docs, and project management for individuals and teams.",
+    "size": 85,
+    "reviews": "20M",
+    "ratingAvg": 4.8,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 17500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/evernote.com",
+    "title": "Evernote",
+    "companyName": "Evernote Corp.",
+    "id": 28,
+    "description": "Evernote helps users take notes, manage ideas, and organize tasks across all their devices with sync support.",
+    "size": 70,
+    "reviews": "30M",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 24500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/asana.com",
+    "title": "Asana",
+    "companyName": "Asana Inc.",
+    "id": 29,
+    "description": "Asana helps teams plan, track, and manage work tasks and projects efficiently with real-time collaboration tools.",
+    "size": 95,
+    "reviews": "18M",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 15500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/trello.com",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 30,
+    "description": "Trello organizes your work and life with visual boards, cards, and automation to manage projects and workflows easily.",
+    "size": 80,
+    "reviews": "22M",
+    "ratingAvg": 4.7,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 19000000 }
+    ]
+  }
+]

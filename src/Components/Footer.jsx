@@ -20,7 +20,7 @@ const Footer = () => {
               App Corner
             </span>
           </Link>
-          <p className=" text-center md:text-start mt-3 mr-3">AppCorner is your go-to place to discover, download, and install trusted apps. Find the right tools for your needs and enjoy a smooth app experience — all in one corner!</p>
+          <p className=" text-center lg:text-start mt-3 mr-3">AppCorner is your go-to place to discover, download, and install trusted apps. Find the right tools for your needs and enjoy a smooth app experience — all in one corner!</p>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           <div className="space-y-3">

@@ -1,10 +1,15 @@
 import React from 'react';
+import Banner from '../Components/Banner';
+import States from '../Components/States';
+import TopApps from '../Components/TopApps';
 
 const Home = () => {
     return (
-        <div>
-            Home
-        </div>
+        <>
+            <Banner></Banner>
+            <States></States>
+            <TopApps></TopApps>
+        </>
     );
 };
 

@@ -50,13 +50,13 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
-              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] rounded-none" : "")} to={'/'}>Home</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none" : "")} to={'/'}>Home</NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] rounded-none" : "")} to={'/apps'}>Apps</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none" : "")} to={'/apps'}>Apps</NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] rounded-none" : "")} to={'/installation'}>Installation</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none" : "")} to={'/installation'}>Installation</NavLink>
             </li>
             
           </ul>
