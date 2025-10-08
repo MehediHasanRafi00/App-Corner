@@ -1,7 +1,9 @@
 import React from "react";
-import logo from '/logo.png'
+import logo from "/logo.png";
 import { Link, NavLink } from "react-router";
-import { FaGithub } from "react-icons/fa";
+import { FaAppStore, FaGithub } from "react-icons/fa";
+import { IoIosHome } from "react-icons/io";
+import { MdOutlineInstallDesktop } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -31,38 +33,94 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold"
             >
               <li>
-              <NavLink className={({ isActive }) => (isActive ? "bg-[#632ee3] text-white" : "")} to={'/'}>Home</NavLink>
-            </li>
-            <li>
-              <NavLink className={({ isActive }) => (isActive ? "bg-[#632ee3] text-white" : "")} to={'/apps'}>Apps</NavLink>
-            </li>
-            <li>
-              <NavLink className={({ isActive }) => (isActive ? "bg-[#632ee3] text-white" : "")} to={'/installation'}>Installation</NavLink>
-            </li>
-              
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "bg-[#632ee3] text-white" : ""
+                  }
+                  to={"/"}
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "bg-[#632ee3] text-white" : ""
+                  }
+                  to={"/apps"}
+                >
+                  Apps
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? "bg-[#632ee3] text-white" : ""
+                  }
+                  to={"/installation"}
+                >
+                  Installation
+                </NavLink>
+              </li>
             </ul>
           </div>
           <Link className="flex items-center gap-2 ">
-          <img className="w-11" src={logo} alt="" />
-          <span className="text-xl font-bold gradient-text hidden md:block">AppCorner</span>
+            <img className="w-11" src={logo} alt="" />
+            <span className="text-xl font-bold gradient-text hidden md:block">
+              AppCorner
+            </span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
-              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none" : "")} to={'/'}>Home</NavLink>
+              <NavLink
+                className={(({ isActive }) =>
+                  isActive
+                    ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none"
+                    : ""
+                )}
+                to={"/"}
+              >
+                <IoIosHome size={17} />
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none" : "")} to={'/apps'}>Apps</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none"
+                    : ""
+                }
+                to={"/apps"}
+              >
+                <FaAppStore size={17}/>
+                Apps
+              </NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => (isActive ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none" : "")} to={'/installation'}>Installation</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "border-b-3 border-[#632ee3] text-[#632ee3] rounded-none"
+                    : ""
+                }
+                to={"/installation"}
+              >
+                <MdOutlineInstallDesktop size={17}/>
+                Installation
+              </NavLink>
             </li>
-            
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to={'https://github.com/MehediHasanRafi00/'} className="btn gradient-bg"><FaGithub className="text-xl"/> Contribute</Link>
+          <Link
+            to={"https://github.com/MehediHasanRafi00/"}
+            className="btn gradient-bg"
+          >
+            <FaGithub className="text-xl" /> Contribute
+          </Link>
         </div>
       </div>
     </nav>

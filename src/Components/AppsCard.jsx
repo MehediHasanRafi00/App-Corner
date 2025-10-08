@@ -5,9 +5,9 @@ import { IoIosStar } from 'react-icons/io';
 import { Link } from 'react-router';
 
 const AppsCard = ({app}) => {
-    const{image,title,ratingAvg,downloads} = app
+    const{image,title,ratingAvg,downloads,id} = app
     return (
-        <Link  className='p-4 shadow-lg rounded bg-white space-y-3 group'>
+        <Link to={`/app/${id}`}  className='p-4 shadow-lg rounded bg-white space-y-3 group'>
             <img className='w-full rounded-xl mx-auto group-hover:scale-103 duration-500 transition ease-in-out ' src={image} alt="" />
             <h3 className='text-xl font-medium'>{title}</h3>
             <div className='flex justify-between items-center'>

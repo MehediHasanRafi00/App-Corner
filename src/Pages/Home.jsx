@@ -10,6 +10,7 @@ const Home = () => {
       <Banner></Banner>
       <States></States>
       <TopApps></TopApps>
+      
     </>
   );
 };

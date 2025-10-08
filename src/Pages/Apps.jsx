@@ -3,7 +3,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import useApps from "../Hooks/useApps";
 import SkeletonLoading from "../Components/SkeletonLoading";
 import AppsCard from "../Components/AppsCard";
-import { Link } from "react-router";
+import { Link, Navigate } from "react-router";
 
 const Apps = () => {
   const { apps, loading } = useApps();
@@ -43,7 +43,7 @@ const Apps = () => {
           ) : searchedApps.length === 0 ? (
             <div className="flex flex-col items-center gap-6">
                 <h2 className="font-medium text-5xl text-gray-500 text-center ">(No App Found)</h2>
-                <Link className="btn gradient-bg" to={'/apps'}> Show all Apps</Link>
+                <Link onClick={()=> Navigate(-1)} className="btn gradient-bg" > Show all Apps</Link>
             </div>
           ) : (
             <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

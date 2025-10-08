@@ -13,6 +13,7 @@ const ErrorPage = () => {
       error.message
       }
       <Footer></Footer>
+      
     </div>
   );
 };

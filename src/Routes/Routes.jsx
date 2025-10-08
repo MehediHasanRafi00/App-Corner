@@ -3,20 +3,25 @@ import { createBrowserRouter } from "react-router";
 import RootLayout from "../Layouts/RootLayout";
 import Home from "../Pages/Home";
 import ErrorPage from "../Pages/ErrorPage";
-import LoadingSinner from "../Components/LoadingSinner";
+
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
+import AppDetails from "../Pages/AppDetails";
+import LoadingSpinner from "../Components/LoadingSinner";
+import ErrorAppsNotFound from "../Pages/ErrorAppsNotFound";
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: RootLayout,
-    errorElement: <ErrorPage />,
+    errorElement: <ErrorPage/>,
     children: [
       {
         index: true,
         Component: Home,
-        hydrateFallbackElement: <LoadingSinner></LoadingSinner>,
+        hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>,
       },
       {
         path: "/apps",
@@ -26,8 +31,17 @@ const router = createBrowserRouter([
         path: "/installation",
         Component: Installation,
       },
+      {
+        path:'/app/:id',
+        Component:AppDetails
+
+      }
     ],
   },
+   //   {
+  //     path: "*",
+  //     element: <ErrorPages/>,
+  //   },
 ]);
 
 export default router;
