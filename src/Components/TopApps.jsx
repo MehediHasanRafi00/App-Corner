@@ -15,7 +15,7 @@ const TopApps = () => {
   const topApps = apps.slice(0, 8);
 
   return (
-    <div className="my-20 container mx-auto">
+    <div className="my-20 container mx-auto px-4 md:6 lg:8">
       <div className="mb-6">
         <h2 className="text-4xl font-bold text-center text-[#001931]">
           Trending Apps

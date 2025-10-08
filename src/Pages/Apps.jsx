@@ -25,7 +25,7 @@ const Apps = () => {
   };
 
   return (
-    <div className="py-20 container mx-auto">
+    <div className="py-20 container mx-auto px-4 md:6 lg:8">
       <div className="text-center  mb-6">
         <h1 className="font-bold text-4xl text-[#001931]">
           Our All Applications

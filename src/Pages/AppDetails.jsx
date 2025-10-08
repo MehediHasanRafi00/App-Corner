@@ -53,7 +53,7 @@ const AppDetails = () => {
     ratings,
   } = app;
   return (
-    <div className=" mx-auto container my-20">
+    <div className=" mx-auto container my-20 px-4 md:6 lg:8">
       <div className="flex flex-col md:flex-row items-center gap-10    mb-10 ">
         <img className="w-[350px]" src={image} alt="" />
         <div className="space-y-5 flex-1">

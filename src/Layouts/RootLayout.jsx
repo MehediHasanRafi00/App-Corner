@@ -10,7 +10,7 @@ const RootLayout = () => {
         return <LoadingSpinner></LoadingSpinner>
     }
     return (
-        <div className='flex flex-col min-h-screen'>
+        <div className='flex flex-col min-h-screen '>
             <Navbar></Navbar>
             <main className='flex-1 bg-[#f5f5f5]'>
                 <Outlet></Outlet>
