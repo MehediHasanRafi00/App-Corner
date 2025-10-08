@@ -1,8 +1,7 @@
 import React from "react";
 import EitherAppsNotFound from "../assets/App-Error.png";
-import { Link, Navigate, useRouteError } from "react-router";
+import { Link, Navigate } from "react-router";
 const ErrorAppsNotFound = () => {
-  const error = useRouteError();
   return (
     <div className="">
       <div className="text-center py-20 space-y-3">
@@ -24,7 +23,6 @@ const ErrorAppsNotFound = () => {
             Browse apps{" "}
           </Link>
         </div>
-        {error.messages}
       </div>
     </div>
   );

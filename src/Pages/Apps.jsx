@@ -8,10 +8,22 @@ import { Link, Navigate } from "react-router";
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
+  const [searchLoading, setSearchLoading] = useState(false);
   const term = search.trim().toLocaleLowerCase();
   const searchedApps = term
     ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
     : apps;
+
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setSearch(value);
+    setSearchLoading(true);
+
+    setTimeout(()=>{
+      setSearchLoading(false)
+    },300)
+  };
+
   return (
     <div className="py-20 container mx-auto">
       <div className="text-center  mb-6">
@@ -31,19 +43,24 @@ const Apps = () => {
             <IoSearchSharp className="text-xl text-gray-500" />
             <input
               value={search}
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={handleSearch}
               type="search"
               placeholder="Search Products"
             />
           </label>
         </div>
         <div>
-          {loading ? (
-            <SkeletonLoading count={searchedApps.length}></SkeletonLoading>
+          {loading || searchLoading  ? (
+            <SkeletonLoading count={30}></SkeletonLoading>
           ) : searchedApps.length === 0 ? (
             <div className="flex flex-col items-center gap-6">
-                <h2 className="font-medium text-5xl text-gray-500 text-center ">(No App Found)</h2>
-                <Link onClick={()=> Navigate(-1)} className="btn gradient-bg" > Show all Apps</Link>
+              <h2 className="font-medium text-5xl text-gray-500 text-center ">
+                (No App Found)
+              </h2>
+              <Link onClick={() => Navigate(-1)} className="btn gradient-bg">
+                {" "}
+                Show all Apps
+              </Link>
             </div>
           ) : (
             <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

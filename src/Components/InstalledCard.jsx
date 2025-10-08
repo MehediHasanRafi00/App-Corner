@@ -2,15 +2,8 @@ import React from "react";
 import { IoIosStar } from "react-icons/io";
 import { MdOutlineFileDownload } from "react-icons/md";
 
-const InstalledCard = ({ app,handleUninstallData }) => {
-  const {
-    image,
-    title,
-    size,
-    ratingAvg,
-    downloads,
-    id
-  } = app;
+const InstalledCard = ({ app, handleUninstallData }) => {
+  const { image, title, size, ratingAvg, downloads } = app;
   return (
     <div className="rounded-lg bg-white shadow flex justify-between items-center p-4">
       <div className="flex items-center gap-4  ">
@@ -20,14 +13,24 @@ const InstalledCard = ({ app,handleUninstallData }) => {
         <div>
           <h2 className="font-semibold text-xl mb-3">{title}</h2>
           <div className="flex gap-4 items-center">
-            <span className="flex text-[#00D390] font-medium"><MdOutlineFileDownload size={20}/> {downloads}</span>
-            <span className="flex text-[#FF8811] font-medium"><IoIosStar size={20}/>{ratingAvg}</span>
+            <span className="flex text-[#00D390] font-medium">
+              <MdOutlineFileDownload size={20} /> {downloads}
+            </span>
+            <span className="flex text-[#FF8811] font-medium">
+              <IoIosStar size={20} />
+              {ratingAvg}
+            </span>
             <span className="font-medium text-[#627382]">{size}MB</span>
           </div>
         </div>
       </div>
       <div>
-        <button onClick={()=>handleUninstallData(id)} className="btn bg-[#00D390] text-white">Uninstall</button>
+        <button
+          onClick={() => handleUninstallData(app)  }
+          className="btn bg-[#00D390] text-white"
+        >
+          Uninstall
+        </button>
       </div>
     </div>
   );

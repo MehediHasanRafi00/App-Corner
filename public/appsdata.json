@@ -268,5 +268,500 @@
       { "name": "4 star", "count": 10000000 },
       { "name": "5 star", "count": 78000000 }
     ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/012/871/376/non_2x/zoom-logo-in-blue-colors-meetings-app-logotype-illustration-free-png.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 16,
+    "description": "Zoom provides reliable video conferencing and chat tools for online meetings, webinars, and collaboration. Launched in 2011 by Eric Yuan, Zoom quickly became a household name, especially during the global shift to remote work in 2020. Its intuitive interface allows users to host or join meetings with just a click, supporting up to 100 participants in free accounts and thousands in paid plans. Key features include high-definition video and audio, screen sharing, virtual backgrounds, breakout rooms for smaller discussions, and real-time chat for seamless communication. Zoom's cloud-based platform ensures scalability, making it ideal for businesses, educators, and families alike. Security is a top priority, with end-to-end encryption, waiting rooms, and password protection to safeguard sensitive discussions. Integration with tools like Google Calendar, Microsoft Outlook, Slack, and CRM systems streamlines workflows. For educators, Zoom offers whiteboarding, polling, and attendance tracking to enhance virtual classrooms. Businesses leverage its webinar capabilities for large-scale events, complete with Q&A sessions and analytics. The mobile app ensures on-the-go access, while desktop versions support advanced controls. Zoom's constant updates address user feedback, introducing features like AI companion for meeting summaries and noise suppression for clearer audio. With over 300 million daily meeting participants at its peak, Zoom has revolutionized how we connect virtually. Whether for quick catch-ups or global conferences, Zoom delivers professional-grade experiences without the complexity. Its affordability, with plans starting free and scaling to enterprise levels, makes it accessible to all. Explore creative uses like virtual fitness classes, therapy sessions, or team-building games. Zoom's commitment to innovation keeps it ahead, ensuring your virtual interactions are engaging, secure, and productive every time.",
+    "size": 85,
+    "reviews": "60M",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 1200000
+      },
+      {
+        "name": "3 star",
+        "count": 2500000
+      },
+      {
+        "name": "4 star",
+        "count": 8000000
+      },
+      {
+        "name": "5 star",
+        "count": 36000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/slack.com",
+    "title": "Slack",
+    "companyName": "Salesforce",
+    "id": 17,
+    "description": "Slack is a communication platform for teams that integrates channels, messages, file sharing, and app tools. Founded in 2013 by Stewart Butterfield, Slack transformed workplace messaging from email overload to organized, real-time conversations. Its channel-based structure groups discussions by topic, project, or department, reducing email clutter and boosting efficiency. Users can post messages, threads for follow-ups, emojis for quick reactions, and mentions to notify specific teammates. File sharing is seamless, with drag-and-drop uploads and previews for images, documents, and videos. Slack's app directory connects with over 2,400 integrations, including Google Drive, Trello, Zoom, and GitHub, automating workflows like notifications or task assignments. Voice and video huddles enable spontaneous calls within channels, fostering collaboration without leaving the app. Search functionality scans history for messages, files, or snippets, saving time on information retrieval. Customizable notifications ensure you're alerted only to what's important, with do-not-disturb modes for focus time. For remote teams, Slack's mobile and desktop apps sync across devices, keeping everyone aligned. Security features like two-factor authentication, data encryption, and compliance with GDPR and HIPAA make it enterprise-ready. Slack's fun side shines through GIFs, memes, and bots for morale boosts. Pricing tiers from free to premium offer scalability, with analytics for usage insights. As part of Salesforce since 2021, Slack leverages CRM data for better customer interactions. Whether startups brainstorming ideas or corporations managing crises, Slack streamlines communication, enhances productivity, and builds stronger team bonds in today's hybrid work world.",
+    "size": 95,
+    "reviews": "25M",
+    "ratingAvg": 4.6,
+    "downloads": "200M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 600000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 20000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/airbnb.com",
+    "title": "Airbnb",
+    "companyName": "Airbnb Inc.",
+    "id": 18,
+    "description": "Airbnb connects travelers with hosts worldwide, offering homes, rooms, and unique stays with flexible booking options. Started in 2008 by Brian Chesky, Joe Gebbia, and Nathan Blecharczyk in San Francisco, Airbnb disrupted traditional hospitality by enabling everyday people to rent out spaces. Today, it boasts millions of listings across 220 countries, from cozy apartments and luxury villas to treehouses, castles, and glamping sites. The app's intuitive search filters by location, dates, price, amenities like pools or Wi-Fi, and guest ratings for perfect matches. Superhost program highlights reliable hosts, while verified profiles build trust. Instant Book simplifies reservations, and flexible cancellation policies provide peace of mind. Experiences section lets users book local activities, tours, and classes led by passionate locals, enriching trips beyond lodging. Airbnb's messaging system facilitates direct host-guest communication for personalized tips. Payment security handles transactions, with insurance for damages. For hosts, tools manage calendars, pricing dynamically, and reviews to attract guests. The app supports 62 languages, making it global. During pandemics, Airbnb pivoted to long-term stays and cleaning protocols for safety. Sustainability efforts promote eco-friendly listings. Stories from users highlight life-changing journeys, cultural immersions, and budget travels. Whether solo adventurers, families, or business travelers, Airbnb turns trips into memorable stories. Its community guidelines foster respect, and 24/7 support resolves issues. With ongoing innovations like Airbnb Plus for premium homes and smart home integrations, it continues redefining travel as accessible, authentic, and adventurous for everyone.",
+    "size": 120,
+    "reviews": "30M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 1000000
+      },
+      {
+        "name": "4 star",
+        "count": 5000000
+      },
+      {
+        "name": "5 star",
+        "count": 24000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/ubereats.com",
+    "title": "Uber Eats",
+    "companyName": "Uber Technologies",
+    "id": 19,
+    "description": "Uber Eats delivers food from local restaurants to your doorstep with real-time order tracking and contactless delivery. Launched in 2014 as an extension of Uber's ride-sharing, it has grown into a global food delivery giant, partnering with thousands of eateries from fast-casual chains to Michelin-starred spots. The app's user-friendly interface lets you browse menus by cuisine, price, ratings, and delivery time, with personalized recommendations based on past orders. Place orders in seconds, customize items, and add notes for special requests. Real-time tracking shows your courier's location, estimated arrival, and even a photo of the delivery person for security. Promotions, coupons, and loyalty rewards make dining affordable, while Uber One subscription offers perks like fee waivers. For restaurants, Uber Eats provides analytics, marketing tools, and easy order management to boost sales. Couriers earn flexibly, picking shifts via the app. Contactless options ensure safety, with drop-off instructions. Dietary filters for vegan, gluten-free, or healthy options cater to all. Late-night cravings? Many spots deliver 24/7. Group orders simplify sharing meals with friends. Sustainability initiatives include eco-friendly packaging and bike deliveries in cities. User reviews influence restaurant visibility, encouraging quality. From quick lunches to gourmet dinners, Uber Eats brings restaurant magic home. Expansions into groceries and alcohol delivery broaden convenience. With seamless integration to Uber rides for post-meal transport, it's a lifestyle enabler. Whether busy professionals or couch potatoes, Uber Eats satisfies hunger with speed, variety, and reliability, revolutionizing how we eat without leaving home.",
+    "size": 80,
+    "reviews": "65M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1500000
+      },
+      {
+        "name": "2 star",
+        "count": 1000000
+      },
+      {
+        "name": "3 star",
+        "count": 2500000
+      },
+      {
+        "name": "4 star",
+        "count": 9000000
+      },
+      {
+        "name": "5 star",
+        "count": 46000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/paypal.com",
+    "title": "PayPal",
+    "companyName": "PayPal Holdings",
+    "id": 20,
+    "description": "PayPal allows users to send and receive money securely, shop online, and make instant transfers worldwide. Founded in 1998 by Max Levchin, Peter Thiel, and others, PayPal pioneered digital payments, starting with Palm Pilot software and evolving into a fintech leader. Today, it serves 400 million active accounts across 200 markets, processing billions in transactions annually. Link your bank, card, or PayPal balance for seamless funding. Send money to friends via email or phone, splitting bills effortlessly with no fees for personal transfers in many countries. For businesses, invoicing tools, payment buttons, and APIs integrate into websites. Shopper protection covers eligible purchases against issues like non-delivery. Cryptocurrency buying, holding, and spending add modern flair. Mobile app scans checks for deposits, tracks spending with insights, and enables contactless payments via QR codes. Security layers include encryption, fraud monitoring, and biometric logins. Virtual cards for one-time use enhance privacy. International transfers convert currencies at competitive rates. Charitable donations link to nonprofits directly. During holidays, gift cards and promotions abound. PayPal's buyer-seller dispute resolution ensures fairness. Expansions into buy-now-pay-later via Pay in 4 offer flexibility. Sustainability pledges support tree-planting per transaction. User stories highlight life simplifications, from freelance payouts to global remittances. Compliance with regulations builds trust. With constant updates like Venmo integration for social payments, PayPal remains versatile. Whether e-commerce enthusiasts, small business owners, or everyday users, PayPal empowers financial freedom, making money moves fast, safe, and borderless in a cashless world.",
+    "size": 70,
+    "reviews": "58M",
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800000
+      },
+      {
+        "name": "2 star",
+        "count": 700000
+      },
+      {
+        "name": "3 star",
+        "count": 1200000
+      },
+      {
+        "name": "4 star",
+        "count": 5000000
+      },
+      {
+        "name": "5 star",
+        "count": 47000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/dropbox.com",
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc.",
+    "id": 21,
+    "description": "Dropbox offers cloud file storage and sharing solutions, allowing users to back up, sync, and collaborate easily. Co-founded in 2007 by Drew Houston and Arash Ferdowsi, Dropbox solved the pain of USB drives and email attachments by providing 2GB free storage that syncs across devices. Now with plans up to terabytes, it secures files with 256-bit encryption and two-factor authentication. Drag-and-drop uploads handle photos, videos, docs, and more, with smart sync saving local space. Sharing links with passwords or expiration dates control access, while collaborative folders enable real-time edits via integrations with Microsoft Office, Google Docs, and Adobe. Version history restores previous file states, preventing loss. Paper tool inside Dropbox crafts wikis and project plans. For teams, admin consoles manage users, storage, and activity logs. Mobile scanning turns paper into PDFs instantly. Offline access ensures productivity anywhere. Dropbox Spaces organize projects with tasks, files, and chats in one hub. AI-powered search finds content by description, not just name. Sustainability through carbon-neutral operations appeals to eco-conscious users. Stories of freelancers accessing portfolios globally or families sharing vacation albums highlight versatility. Business features like e-signatures and compliance for HIPAA/GDPR suit enterprises. Free tier lures beginners, while Plus, Family, and Professional plans scale needs. Constant innovations like Dropbox Rewind for bulk restores keep it fresh. Whether students organizing notes, creators managing media, or corporations safeguarding data, Dropbox turns chaos into order, fostering seamless collaboration and peace of mind in a digital-first era.",
+    "size": 65,
+    "reviews": "22M",
+    "ratingAvg": 4.4,
+    "downloads": "100M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400000
+      },
+      {
+        "name": "2 star",
+        "count": 300000
+      },
+      {
+        "name": "3 star",
+        "count": 600000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 17000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/duolingo.com",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 22,
+    "description": "Duolingo is a fun language-learning app with interactive lessons, daily challenges, and speech recognition features. Launched in 2011 by Luis von Ahn and Severin Hacker, Duolingo gamified education, making it free and accessible to millions. Bite-sized lessons cover grammar, vocabulary, and pronunciation through stories, podcasts, and games, supporting 40+ languages from Spanish to fictional Klingon. Streaks and XP rewards motivate consistency, with leaderboards for social competition. Adaptive algorithms tailor difficulty to your pace, ensuring steady progress. Speech exercises use AI to critique accents, while listening drills build comprehension. Duolingo Super subscription unlocks ad-free lessons, unlimited hearts, and offline mode. For kids, ABC app teaches English basics playfully. Research-backed methods draw from cognitive science, with studies showing efficacy rivaling university courses. Community translations contribute to app growth. Events like language challenges foster global connections. User testimonials praise confidence boosts for travel, careers, or romance. Beyond languages, math and music courses expand horizons. Daily goals fit busy lives, turning commutes into learning sessions. Inclusivity shines with diverse characters and cultural nuances. Updates introduce AR filters and live events. As a B Corp, Duolingo prioritizes social impact, donating to literacy initiatives. Whether beginners or polyglots, the green owl's reminders spark joy in learning. With 500 million users, it democratizes education, proving fluency is achievable through fun, science, and persistence, one lesson at a time.",
+    "size": 75,
+    "reviews": "40M",
+    "ratingAvg": 4.9,
+    "downloads": "1B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500000
+      },
+      {
+        "name": "2 star",
+        "count": 400000
+      },
+      {
+        "name": "3 star",
+        "count": 800000
+      },
+      {
+        "name": "4 star",
+        "count": 5000000
+      },
+      {
+        "name": "5 star",
+        "count": 34500000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/discord.com",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 23,
+    "description": "Discord is a communication app for gamers and communities offering text, voice, and video chats with rich media integration. Created in 2015 by Jason Citron and Stan Vishnevskiy, Discord started as a gamer haven but expanded to clubs, study groups, and creators. Servers organize channels for topics, with roles assigning permissions and boosts unlocking perks like custom emojis. Low-latency voice chat supports crystal-clear calls, screen sharing for co-op gaming or tutorials, and stage channels for AMAs. Nitro subscription enhances with 4K streaming, larger uploads, and animated avatars. Bots automate moderation, music playback, and polls, with thousands available. Mobile push notifications keep you looped in. Privacy controls limit who sees your activity. Cross-platform sync means seamless switches between PC, phone, and console. Events like watch parties and activities turn chats into shared experiences. For creators, server discovery and monetization via memberships build audiences. Safety features report toxicity, with teen modes for younger users. Open-source elements invite community tweaks. Stories of friendships forged in raids or support found in mental health channels underscore impact. Beyond gaming, educators host classes, businesses run support, and fans unite over passions. With 150 million monthly users, Discord's voice quality and customization set it apart. Constant updates address feedback, like themes and accessibility. It's more than chat—it's a vibrant ecosystem where voices connect, ideas flow, and communities thrive in real time.",
+    "size": 90,
+    "reviews": "55M",
+    "ratingAvg": 4.8,
+    "downloads": "1B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000000
+      },
+      {
+        "name": "2 star",
+        "count": 900000
+      },
+      {
+        "name": "3 star",
+        "count": 1500000
+      },
+      {
+        "name": "4 star",
+        "count": 6000000
+      },
+      {
+        "name": "5 star",
+        "count": 46500000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/shazam.com",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "id": 24,
+    "description": "Shazam identifies songs playing nearby instantly and links users to streaming platforms to enjoy full tracks. Invented in 1999 by Chris Barton, Philip Inghelbrecht, Avery Wang, and Dhiraj Mukherjee in London, Shazam used acoustic fingerprinting to match audio snippets against a vast database. Acquired by Apple in 2018, it now integrates deeply with Music and Siri. Tap the icon during a song—be it on radio, TV, or live—and within seconds, reveal artist, title, album, and lyrics. Results include YouTube videos, Apple Music adds, and concert tickets. Auto-Shazam mode logs unidentified tunes for later. Pop-up Shazam in other apps like Spotify saves time. Global database covers millions of tracks across genres, from pop hits to indie gems. User-submitted tags enhance accuracy. Fun facts: It recognizes TV themes, ads, and even animal sounds. Stories of concert discoveries or karaoke saviors abound. For creators, chart insights track buzz. Privacy-focused, it processes locally without internet for basics. Updates add AR visuals and social sharing. With 2 billion searches yearly, Shazam bridges hearing to owning music. Whether curating playlists or settling bar bets, it turns curiosity into connection, making every melody a tappable moment in a sound-filled world.",
+    "size": 55,
+    "reviews": "25M",
+    "ratingAvg": 4.9,
+    "downloads": "500M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 250000
+      },
+      {
+        "name": "3 star",
+        "count": 600000
+      },
+      {
+        "name": "4 star",
+        "count": 3000000
+      },
+      {
+        "name": "5 star",
+        "count": 21000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/canva.com",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 25,
+    "description": "Canva allows users to design graphics, presentations, and social posts using templates and drag-and-drop tools. Founded in 2013 by Melanie Perkins, Cliff Obrecht, and Cameron Adams in Sydney, Canva democratized design for non-professionals, amassing 135 million monthly users. Vast library of templates spans resumes, logos, infographics, videos, and websites, customizable in minutes. Drag elements like photos, icons, fonts, and charts—no skills needed. Brand kits lock colors and logos for consistency. Magic Studio's AI generates images, removes backgrounds, and suggests layouts. Collaborate in real-time, commenting like Google Docs. Free tier suffices basics, Pro unlocks premium assets and resizing. Print services deliver posters or merch. Educators get free tools for classrooms. Mobile app enables on-the-go edits. Integrations with Dropbox, Google Drive, and social schedulers streamline. Sustainability via tree-planting partnerships. User wins include viral posts and business pitches. From solopreneurs to Fortune 500s, Canva empowers visual storytelling, turning ideas into polished creations effortlessly.",
+    "size": 100,
+    "reviews": "70M",
+    "ratingAvg": 4.9,
+    "downloads": "1B",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700000
+      },
+      {
+        "name": "2 star",
+        "count": 600000
+      },
+      {
+        "name": "3 star",
+        "count": 1200000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 64000000
+      }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corp.",
+    "id": 26,
+    "description": "Teams offers chat, meetings, and collaborative workspace tools integrated with Microsoft 365 for organizations. Released in 2017, Teams unified communication in the Office suite, now powering 280 million users. Channels organize conversations, files attach directly, and @mentions ping colleagues. Video meetings support 300 participants, with live captions, recording, and transcription. Planner integrates tasks, while Loop components enable co-editing. AI Copilot summarizes chats and generates ideas. Guest access fosters external collab. Mobile, web, desktop sync flawlessly. Security via compliance certifications. Free for small teams, enterprise for large. From remote huddles to global projects, Teams boosts productivity and connectivity.",
+    "size": 115,
+    "reviews": "50M",
+    "ratingAvg": 4.6,
+    "downloads": "500M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800000
+      },
+      {
+        "name": "2 star",
+        "count": 600000
+      },
+      {
+        "name": "3 star",
+        "count": 1200000
+      },
+      {
+        "name": "4 star",
+        "count": 5000000
+      },
+      {
+        "name": "5 star",
+        "count": 42000000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/notion.so",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 27,
+    "description": "Notion is an all-in-one workspace for notes, tasks, docs, and project management for individuals and teams. Launched in 2016 by Ivan Zhao, Notion blends wiki, database, and kanban into customizable pages. Embed media, toggle lists, and link databases for dynamic views. Templates kickstart journals, CRMs, or roadmaps. Real-time collab with comments and mentions. AI assists writing and summarizing. Offline sync and export options. Free for personal, paid for teams with unlimited blocks. Integrations with Slack, Google. From solopreneurs tracking habits to enterprises streamlining ops, Notion's flexibility sparks creativity and organization.",
+    "size": 85,
+    "reviews": "20M",
+    "ratingAvg": 4.8,
+    "downloads": "100M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 150000
+      },
+      {
+        "name": "3 star",
+        "count": 300000
+      },
+      {
+        "name": "4 star",
+        "count": 2000000
+      },
+      {
+        "name": "5 star",
+        "count": 17500000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/evernote.com",
+    "title": "Evernote",
+    "companyName": "Evernote Corp.",
+    "id": 28,
+    "description": "Evernote helps users take notes, manage ideas, and organize tasks across all their devices with sync support. Founded in 2007 by Stepan Pachikov, Evernote captures web clips, scans docs, and tags for search. Notebooks group content, tasks add reminders. Premium unlocks PDF search and offline. Integrates with calendars, email. From brainstorming to research, Evernote's second brain keeps ideas alive and accessible anytime.",
+    "size": 70,
+    "reviews": "30M",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600000
+      },
+      {
+        "name": "2 star",
+        "count": 500000
+      },
+      {
+        "name": "3 star",
+        "count": 900000
+      },
+      {
+        "name": "4 star",
+        "count": 4000000
+      },
+      {
+        "name": "5 star",
+        "count": 24500000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/asana.com",
+    "title": "Asana",
+    "companyName": "Asana Inc.",
+    "id": 29,
+    "description": "Asana helps teams plan, track, and manage work tasks and projects efficiently with real-time collaboration tools. Started in 2008 by Dustin Moskovitz and Justin Rosenstein, Asana uses boards, lists, timelines for workflows. Assign tasks, set dependencies, automate rules. Integrates with Slack, Zoom. Dashboards visualize progress. Free for basics, premium for portfolios. Scales from startups to enterprises, turning chaos into clarity.",
+    "size": 95,
+    "reviews": "18M",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 150000
+      },
+      {
+        "name": "2 star",
+        "count": 100000
+      },
+      {
+        "name": "3 star",
+        "count": 300000
+      },
+      {
+        "name": "4 star",
+        "count": 2000000
+      },
+      {
+        "name": "5 star",
+        "count": 15500000
+      }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/trello.com",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 30,
+    "description": "Trello organizes your work and life with visual boards, cards, and automation to manage projects and workflows easily. Acquired by Atlassian in 2017, Trello's kanban style moves cards through lists like To Do, Doing, Done. Labels, checklists, attachments add depth. Power-Ups integrate calendars, votes. Butler bot automates. Free for unlimited, paid for advanced. Ideal for personal habits or team sprints, its simplicity drives productivity.",
+    "size": 80,
+    "reviews": "22M",
+    "ratingAvg": 4.7,
+    "downloads": "200M",
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300000
+      },
+      {
+        "name": "2 star",
+        "count": 250000
+      },
+      {
+        "name": "3 star",
+        "count": 500000
+      },
+      {
+        "name": "4 star",
+        "count": 3000000
+      },
+      {
+        "name": "5 star",
+        "count": 19000000
+      }
+    ]
   }
 ]

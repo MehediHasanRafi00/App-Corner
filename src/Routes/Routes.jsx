@@ -10,13 +10,11 @@ import AppDetails from "../Pages/AppDetails";
 import LoadingSpinner from "../Components/LoadingSinner";
 import ErrorAppsNotFound from "../Pages/ErrorAppsNotFound";
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
     Component: RootLayout,
-    errorElement: <ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -32,16 +30,16 @@ const router = createBrowserRouter([
         Component: Installation,
       },
       {
-        path:'/app/:id',
-        Component:AppDetails
-
-      }
+        path: "/app/:id",
+        Component: AppDetails,
+        errorElement: <ErrorAppsNotFound></ErrorAppsNotFound>,
+      },
     ],
   },
-   //   {
-  //     path: "*",
-  //     element: <ErrorPages/>,
-  //   },
+  {
+    path: "*",
+    element: <ErrorPage></ErrorPage>,
+  },
 ]);
 
 export default router;

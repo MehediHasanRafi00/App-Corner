@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { loadInstalledData, removeInstalledData } from "../Utils/LocalStorege";
 import InstalledCard from "../Components/InstalledCard";
+import { Bounce, toast, ToastContainer } from "react-toastify";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState(() => loadInstalledData());
   const [sortOrder, setSortOrder] = useState("none");
 
-  console.log(installedApps);
+
 
   if (installedApps.length === 0)
     return (
@@ -25,9 +26,12 @@ const Installation = () => {
     }
   })();
 
- const  handleUninstallData = (id) =>{
-    removeInstalledData(id)
-    setInstalledApps(prev=> prev.filter(a=> a.id !== id))
+ const  handleUninstallData = (app) =>{
+    
+    toast.success(`🗑️ ${app.title} Uninstall successful`)
+    removeInstalledData(app.id)
+    setInstalledApps(prev=> prev.filter(a=> a.id !== app.id))
+    
   }
 
   return (
@@ -63,6 +67,19 @@ const Installation = () => {
           <InstalledCard key={app.id} app={app} handleUninstallData={handleUninstallData} />
         ))}
       </div>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition={Bounce}
+      />
     </div>
   );
 };

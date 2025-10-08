@@ -3,9 +3,14 @@ import useApps from "../Hooks/useApps";
 import AppsCard from "./AppsCard";
 import { Link } from "react-router";
 import SkeletonLoading from "./SkeletonLoading";
+import LoadingSpinner from "./LoadingSinner";
+import ErrorPage from "../Pages/ErrorPage";
 
 const TopApps = () => {
   const { apps, loading, error } = useApps();
+
+  
+  if (error) return <ErrorPage></ErrorPage>;
 
   const topApps = apps.slice(0, 8);
 
@@ -21,7 +26,7 @@ const TopApps = () => {
       </div>
 
       {loading ? (
-        <SkeletonLoading count={topApps.length}></SkeletonLoading>
+        <SkeletonLoading count={8}></SkeletonLoading>
       ) : (
         <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {topApps.map((app) => (
