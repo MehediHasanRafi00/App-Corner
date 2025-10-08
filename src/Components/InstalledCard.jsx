@@ -1,9 +1,11 @@
 import React from "react";
 import { IoIosStar } from "react-icons/io";
 import { MdOutlineFileDownload } from "react-icons/md";
+import { formatNumber } from "../Utils/FormatNumber";
 
 const InstalledCard = ({ app, handleUninstallData }) => {
   const { image, title, size, ratingAvg, downloads } = app;
+  const convertedDownloads = formatNumber(downloads)
   return (
     <div className="rounded-lg bg-white shadow flex justify-between items-center p-4">
       <div className="flex items-center gap-4  ">
@@ -14,7 +16,7 @@ const InstalledCard = ({ app, handleUninstallData }) => {
           <h2 className="font-semibold text-xl mb-3">{title}</h2>
           <div className="flex gap-4 items-center">
             <span className="flex text-[#00D390] font-medium">
-              <MdOutlineFileDownload size={20} /> {downloads}
+              <MdOutlineFileDownload size={20} /> {convertedDownloads}
             </span>
             <span className="flex text-[#FF8811] font-medium">
               <IoIosStar size={20} />

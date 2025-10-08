@@ -7,12 +7,14 @@ const Installation = () => {
   const [installedApps, setInstalledApps] = useState(() => loadInstalledData());
   const [sortOrder, setSortOrder] = useState("none");
 
+  console.log(installedApps)
+
   const sortItem = (() => {
     if (sortOrder === "asc") {
-      return [...installedApps.sort((a, b) => a.size - b.size)];
+      return [...installedApps.sort((a, b) => a.downloads - b.downloads)];
     }
     if (sortOrder === "desc") {
-      return [...installedApps.sort((a, b) => b.size - a.size)];
+      return [...installedApps.sort((a, b) => b.downloads - a.downloads)];
     }
     return installedApps;
   })();

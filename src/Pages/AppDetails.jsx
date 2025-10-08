@@ -19,6 +19,7 @@ import {
 } from "recharts";
 import { Bounce, toast, ToastContainer } from "react-toastify";
 import { loadInstalledData, updateInstalledData } from "../Utils/LocalStorege";
+import { formatNumber } from "../Utils/FormatNumber";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -52,6 +53,7 @@ const AppDetails = () => {
     downloads,
     ratings,
   } = app;
+  const convertedDownloads = formatNumber(downloads)
   return (
     <div className=" mx-auto container my-20 px-4 md:6 lg:8">
       <div className="flex flex-col md:flex-row items-center gap-10    mb-10 ">
@@ -67,7 +69,7 @@ const AppDetails = () => {
             <div className="flex flex-col items-center border-r border-dashed border-gray-300 p-3">
               <img src={dowicon} alt="" />
               <p>Downloads</p>
-              <p>{downloads}</p>
+              <p>{convertedDownloads}</p>
             </div>
             <div className="flex flex-col items-center border-r border-dashed border-gray-300 p-3">
               <img src={raticon} alt="" />
