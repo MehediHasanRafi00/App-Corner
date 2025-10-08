@@ -1,16 +1,70 @@
-# React + Vite
+# 🌐 AppCorner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Website:** [appcorner.surge.sh](http://appcorner.surge.sh/)  
+💻 **GitHub Repository:** [github.com/MehediHasanRafi00/App-Corner](https://github.com/MehediHasanRafi00/App-Corner)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**AppCorner** is a modern web application that helps users **discover, explore, and install the latest popular apps**.  
+It provides detailed app information, ratings, reviews, and sizes — all presented with a clean and user-friendly UI.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **App Search:** Quickly find any app by name.
+- 🧩 **Category Browsing:** Explore apps across multiple categories.
+- ⭐ **Ratings & Reviews:** View average ratings and user feedback.
+- 📱 **App Details:** Includes app description, company name, and download size.
+- ⚡ **Fast Loading:** Optimized UI with skeleton loading for smooth user experience.
+- 🎨 **Modern UI:** Built with **React + Tailwind CSS** for a responsive design.
+- 🧠 **Dynamic Data Fetching:** Uses **custom hooks** and **Axios** to manage app data efficiently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | React.js, Vite |
+| **Styling** | Tailwind CSS |
+| **Data Fetching** | Axios, Custom React Hooks |
+| **Routing** | React Router DOM |
+| **Icons** | React Icons |
+| **Deployment** | Surge.sh |
+
+## 🧩 Project Structure
+```
+App-Corner/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── routes/
+│   ├── data/
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
+---
+# 🧠 Key Concepts Used
+
+- Custom Hooks for reusing logic like fetching app data.
+
+- Error Handling using React Router’s useRouteError.
+
+- Skeleton Loading for smooth user experience during data fetch.
+
+- Search Optimization for instant app lookup.
+
+---
+## Author
+
+- Developer: Mehedi Hasan Rafi
+
+- GitHub: [MehediHasanRafi00](https://github.com/MehediHasanRafi00/)
+
+- Email: info.mehedihasanRafi@gmail.com
+
