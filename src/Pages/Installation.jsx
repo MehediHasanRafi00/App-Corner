@@ -56,7 +56,7 @@ const Installation = () => {
                 onChange={(e) => setSortOrder(e.target.value)}
               >
                 <option disabled value="none">
-                  Sort by size
+                  Sort by download count
                 </option>
                 <option value="asc">Low-&gt;High</option>
                 <option value="desc">High-&gt;Low</option>
